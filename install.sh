@@ -6,6 +6,7 @@ install_command=""
 
 #OS installation commands dict
 declare -A os_ic
+os_ic["id"]="pkg install "
 os_ic["opensuse-tumbleweed"]="zypper -n in "
 os_ic["debian"]="apt install "
 
